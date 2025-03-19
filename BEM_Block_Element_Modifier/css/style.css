@@ -1,0 +1,18 @@
+/* Bloco */
+.card {
+    background: white;
+    border_radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Elemento (componente do bloco) */
+.card_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card_image {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}

@@ -1,11 +1,9 @@
-/* Bloco */
 .card {
-    background: white;
+    background: rgb(8, 191, 26);
     border_radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Elemento (componente do bloco) */
 .card_title {
     font-size: 18px;
     font-weight: bold;
@@ -15,4 +13,16 @@
 .card_image {
     width: 100%;
     border-radius: 4px 4px 0 0;
+}
+
+.card_content {
+    padding: 15px;
+}
+
+.card--featured {
+    border: 2px solid gold;
+}
+
+.card_title--large {
+    font-size: 24px;
 }
